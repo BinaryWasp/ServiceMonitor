@@ -1,0 +1,25 @@
+<!-- 
+
+Interval is in Milliseconds,
+Do not append .exe to process,
+Change svchost to process to be monitored
+config.xml needs to be in the same directory as exe
+
+-->
+
+
+    <configuration> 
+      <startup>
+        <SmtpTo Address="email@domain.com" />
+	<SmtpFrom Address="email@domain.com" />
+        <Smtp Server="smtp.domain.com"/>
+	<Interval Period="2000"/>
+	<Process1 Name="ServiceName"/>
+	<Process2 Name="svchost"/>
+	<Process3 Name="svchost"/>
+	<Process4 Name="svchost"/>
+	<Process5 Name="svchost"/>
+	<Process6 Name="svchost"/>
+	<Process7 Name="svchost"/>
+      </startup>
+    </configuration>
